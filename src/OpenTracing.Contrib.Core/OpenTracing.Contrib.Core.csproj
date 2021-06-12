@@ -7,7 +7,7 @@
       Instrumented components: HttpClient calls, ASP.NET Core and any other library that uses DiagnosticSource events.
     </Description>
     <PackageTags>opentracing;distributed-tracing;tracing;netcore</PackageTags>
-    <Version>0.1.1</Version>
+    <Version>0.1.2</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -32,11 +32,11 @@
 
   <ItemGroup Condition="$(TargetFramework)=='netcoreapp3.1'">
     <!-- Main dependencies -->
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="[3.1.8,5)" />
-    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="[3.1.8,5)" />
-    <PackageReference Include="Microsoft.Extensions.Logging" Version="[3.1.8,5)" />
-    <PackageReference Include="Microsoft.Extensions.Options" Version="[3.1.8,5)" />
-    <PackageReference Include="System.Diagnostics.DiagnosticSource" Version="5.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="[3.1.8,6)" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="[3.1.8,6)" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="[3.1.8,6)" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="[3.1.8,6)" />
+    <PackageReference Include="System.Diagnostics.DiagnosticSource" Version="[5,6)" />
   </ItemGroup>
 
   <ItemGroup Condition="$(TargetFramework)=='net5.0'">
