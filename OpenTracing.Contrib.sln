@@ -70,6 +70,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrdersApi", "samples\net5.0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrafficGenerator", "samples\net5.0\TrafficGenerator\TrafficGenerator.csproj", "{3369C8DF-DCC2-4934-BBA0-222BE6E5D649}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTracing.Contrib.Core", "src\OpenTracing.Contrib.Core\OpenTracing.Contrib.Core.csproj", "{6CD80F83-22BD-4983-A1C6-D342C4187C82}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -148,6 +150,10 @@ Global
 		{3369C8DF-DCC2-4934-BBA0-222BE6E5D649}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3369C8DF-DCC2-4934-BBA0-222BE6E5D649}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3369C8DF-DCC2-4934-BBA0-222BE6E5D649}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CD80F83-22BD-4983-A1C6-D342C4187C82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CD80F83-22BD-4983-A1C6-D342C4187C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CD80F83-22BD-4983-A1C6-D342C4187C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CD80F83-22BD-4983-A1C6-D342C4187C82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -174,6 +180,7 @@ Global
 		{E68B95C3-E0B4-489A-9FE9-3A46183D7AE9} = {064684F8-44D7-4151-81E0-79FCEF3EB744}
 		{9185D267-C28C-471E-80DF-9621F03FDF6B} = {064684F8-44D7-4151-81E0-79FCEF3EB744}
 		{3369C8DF-DCC2-4934-BBA0-222BE6E5D649} = {064684F8-44D7-4151-81E0-79FCEF3EB744}
+		{6CD80F83-22BD-4983-A1C6-D342C4187C82} = {420F640A-E23F-457C-BEC7-1DEAD1C592F1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {832F86C2-4B74-4259-8073-04EE0C37FBCD}
